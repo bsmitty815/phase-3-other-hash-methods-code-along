@@ -10,4 +10,6 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
+  groceries.values.flatten.min #get all the values then flatten it and call min to get the min which will be b for brocolli
+  #yo ucan also call min on all the keys grocereries.min
 end
